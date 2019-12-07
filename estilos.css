@@ -1,0 +1,144 @@
+/*
+	Javier Naranjo Cabrera
+*/
+
+*{margin:0;padding:0;}:focus,:active {outline:0}
+
+ul {list-style-type: circle;}
+
+a img{border:0} 
+
+body { font: .9em "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+	   background: #dfefff url(imagenes/bg.png) repeat-x;
+       color: #777; }
+
+a { text-decoration: none;
+	color: #6796CE; }
+   
+   a:hover { color: white; }
+
+p  { margin: 0 0 15px;
+	 line-height: 1.64em; 
+	 font-size : 15px; }
+	 
+h1 { font-size: 35px; }
+
+h1.color { color : white; }
+
+h2 { font-size: 22px;
+	 margin-bottom : 5px; }
+	 
+h2.posicion { text-align :center; }
+	 
+h3 { font-size: 1.3em;
+     font: bold 1.3em Arial; 
+     color: #222; 
+     margin: 0 0 10px; } 
+
+table  { border: 2px ridge ;
+		 border-color : #81DAF5 ; } 
+
+
+table.bordetabla{ border: 1px solid #DCDCDC;  
+                  border-color : gray; }
+                  
+table.bordetabla tr{border: 1px solid #DCDCDC;
+				    background-color: #CEE3F6;
+                    border-color: gray; }
+                    
+table.bordetabla td { border: 1px solid #DCDCDC;
+                      border-color : gray ;}
+table.bordetabla th { border: 1px solid #DCDCDC; 
+                      border-color : gray ;}
+	
+table.centro { text-align :left;
+			   margin: auto; 
+			   border: 2px ridge ;
+			   border-color : #81DAF5 ; } 
+
+td { text-align : left; }
+
+td.alineacion { text-align :center; }
+
+td.color {color: #808080 ;
+		  background-color: #ADD8E6; 
+		  text-align : center; }
+
+.clear { clear: both; }
+
+#container { margin: 20px auto 0; 
+			 width: 979px; }
+
+#logo { float: left;
+		margin: 35px 0 0 20px;
+		height: 89px; 
+		margin-top: 20px; }
+		
+#logo p { padding: 2px 0 0 4px;
+		  font-size: .9em; 
+	      color: #555; }
+	      
+#logo h1 { font-size: 2.6em;
+		   margin: 0; 
+		   text-shadow: 1px 1px 1px #000; }
+		   
+#logo h1 a { color: #fff; }
+
+table.especial { border: dashed 1px;
+				 margin: auto;
+				 border-color : #DCDCDC;}
+				 
+table.especialdos { border : dashed 1px;
+					border-color : #DCDCDC; }
+					
+#menu { clear: left;
+		float: left; 
+		height: 49px; 
+		margin: 0 0px 0 0px;
+	    background-color: #090909; 
+	    font-size :11px; 
+	    border-radius: 15px; 
+	    padding: 0px 10px; 
+	    margin-bottom: 15px; 
+	    width: 96%}
+	
+#menu ul { float: left; 
+	       padding: 4px 35px; }
+	       
+#menu li { display: inline; 
+	       text-transform: uppercase; }
+	       
+#menu li a { float: left;
+		     margin: 0 5px 0 0;
+		     padding: 12px 0 15px 20px;
+		     color: #777; 
+		     position: relative; 
+		     z-index: 2; }
+		     
+#menu li a span { padding: 12px 20px 15px 0; }
+
+#menu li a:hover, #menu li a:focus { color: #000;
+									 background: url(imagenes/bgtab.gif); 
+									 border-radius: 15px;}
+									 	
+#content-top { clear: both;
+			   height: 26px;
+	           background: url(imagenes/content-top.gif) no-repeat;
+               position: relative;
+               margin: 0 !important; 
+               margin: 0 0 0; }
+               
+#content-middle { padding: 0 25px 0px;
+				  background: url(imagenes/content-middle.gif) repeat-y;
+				  font-size: 12 px; }
+				  
+#content-bottom { clear: both;
+				  height: 13px; 
+				  background: url(imagenes/content-bottom.gif) no-repeat left bottom; 
+				  margin-top: -10px; }
+				  	
+#footer { padding: 20px;
+		  color: #555; }
+		  
+#formulario { text-align: center; }
+	
